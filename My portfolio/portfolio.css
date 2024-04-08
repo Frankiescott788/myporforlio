@@ -1,0 +1,228 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body::-webkit-scrollbar{
+    width: 5px;
+
+}
+body::-webkit-scrollbar-thumb{
+    background: #2a5fffaf;
+    border-radius: 50pt;
+    height: 1px;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-inline: 20px;
+    margin-block: 10px;
+    margin-inline: 10px;
+    background: white;
+    border-radius: 50pt;
+    box-shadow: 0 25px 20px -30px rgba(0, 0, 0, 0.452);
+    z-index: 10;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 20pt;
+    margin-top: 25px;
+    margin-left: 30px;
+    color: #2a60ff;
+    font-weight: bold;
+}
+.Pro{
+    color: rgba(255, 0, 0, 0.774);
+    transition: .2s ease-in-out;
+    
+}
+.Pro:hover{
+    font-style: normal;
+    transition: .2s ease-in-out;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    margin-block: 20px;
+    font-size: 14pt;
+}
+.nav-list > li {
+    margin-inline: 20px;
+}
+.header-section{
+    background: #2a60ff;
+    padding-block: 30px;
+    border-radius: 0px 0px 20px 20px;
+    height: 90vh;
+}
+.container-header{
+    margin-top: 120px;
+}
+.container-row{
+    display: flex;
+    justify-content: center;
+}
+.about-me-div-header{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 50px;
+}
+.about-me-illustration{
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.aboutme-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 60px;
+}
+.container-header-column-aboutme-1{
+    width: 50vw;
+}
+
+.video-div > img{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.aboutme-container{
+    padding-inline: 5rem;
+    margin-block: 5rem;
+}
+.aboutme-head{
+    font-size: 30px;
+}
+.aboutme-row{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutme-column-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45vw;
+}
+.aboutme-img > img{
+    height: 30rem;
+    object-fit: cover;
+    margin-right: 80px;
+    transform: translateY(-50px);
+}
+.btn{
+    border: none;
+    background: #2a60ff;
+    outline: none;
+    padding-inline: 30pt;
+    border-radius: 50pt;
+    padding-block: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    box-shadow: 0 10px 25px -7px #2a60ff;
+}
+.contact-btn{
+    border: none;
+    background: #2a60ff;
+    outline: none;
+    padding-inline: 20pt;
+    border-radius: 50pt;
+    padding-block: 10px;
+    color: white;
+    font-size: 12pt;
+    margin-top: 2px;
+    cursor: pointer;
+    box-shadow: 0 10px 25px -10px #2a60ff;
+    transition: .3s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+
+}
+.contact-btn:hover{
+    border-radius: 6px;
+    transition: .3s ease-in-out;
+}
+.nav-btns{
+    border: none;
+    outline: none;
+    background: none;
+    padding-block: 12px;
+    font-size: 12pt;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+
+}
+iframe{
+    box-shadow: 0 30px 35px -12px rgba(0, 0, 0, 0.76);
+    width: 70vw;
+    border-radius: 8px;
+}
+footer{
+    background: #242526;
+    color : white;
+}
+.footer-container{
+    margin-inline: 25px;
+}
+.footer-links-nav{
+    list-style: none;
+}
+.navigation{
+    font-size: 20px;
+    margin-block: 10px;
+}
+.footer-data{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-links-contact{
+    list-style: none;
+    margin-right: 30px;
+}
+.footer-vision-text{
+    font-size: 12px;
+    color: white;
+    font-weight: normal;
+}
+.footer-logo{
+    font-size: 20pt;
+    margin-top: 25px;
+    margin-left: 30px;
+    color: #2a60ff;
+    font-weight: bold;
+    width: 25vw;
+}
+.hr-line{
+    background: #2a60ff;
+    height: 2px;
+    width: 70px;
+}
+.facebook{
+    display: flex;
+}
+.facebook > .ri-facebook-circle-line{
+    font-size: 3rem;
+}
+.github{
+    display: flex;
+}
+.github > .ri-github-fill{
+    font-size: 3rem;
+}
+.mail{
+    display: flex;
+}
+.mail > .ri-mail-line{
+    font-size: 3rem;
+}
+.whatsApp{
+    display: flex;
+}
+.whatsApp > .ri-whatsapp-line{
+    font-size: 3rem;
+}
